@@ -63,6 +63,7 @@ I'll jot down key takeaways, tips, and tricks from each module right here! 📝
 Stay tuned as I work on exciting projects like:
 - Building responsive websites
 - Creating a dynamic **To-Do List** app 📝
+- Creating a spotify clone
 - Developing a **Portfolio Website** to showcase my skills
 
 ---
@@ -70,9 +71,9 @@ Stay tuned as I work on exciting projects like:
 ## 💬 Connect
 
 🌟 Feel free to connect or leave feedback!
-- **Email**: [Your Email Here] 📧
-- **LinkedIn**: [Your LinkedIn Here] 🔗
-- **Twitter**: [Your Twitter Here] 🐦
+- **Email**: [cick Here](mandeepsingh19092003@gmail.com)📧
+- **LinkedIn**: [click here](https://www.linkedin.com/in/mandeepsingh19092003/) 🔗
+- **𝕏(Formerly Twitter)**: [@MandeepSingh57](https://x.com/MandeepSingh57) 🐦
 
 ---
 
@@ -84,4 +85,4 @@ A heartfelt thanks to [Code With Harry](https://github.com/CodeWithHarry) for ma
 
 > _“Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.”_ – Patrick McKenzie
 
-Let's do this! 🚀
+Let's go! 🚀
