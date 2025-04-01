@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magazine Subscription</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header-row">
+      <h1>Magazine Subscription</h1>
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round">
+            <span class="moon">🌙</span>
+            <span class="sun">☀️</span>
+          </div>
+        </label>
+      </div>
+    </div>
+    
+    <div class="progress-container">
+      <div class="progress-bar">
+        <div class="progress" id="progress-bar"></div>
+      </div>
+      <div class="progress-steps">
+        <div class="step active">Personal Info</div>
+        <div class="step">Address</div>
+        <div class="step">Subscription</div>
+        <div class="step">Confirmation</div>
+      </div>
+    </div>
+    
+    <form id="subscription-form">
+      <!-- Personal Information -->
+      <div class="form-section" id="section-1">
+        <h2>Personal Information</h2>
+        
+        <div class="form-row">
+          <div class="form-col">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" class="input-medium" required>
+              <div class="error-text" id="firstName-error">First name is required</div>
+            </div>
+          </div>
+          <div class="form-col">
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" class="input-medium" required>
+              <div class="error-text" id="lastName-error">Last name is required</div>
+            </div>
+          </div>
+        </div>
+        
+        <button type="button" id="next-1" class="next-btn">Next</button>
+      </div>
+      
+      <!-- Address Information -->
+      <div class="form-section" id="section-2" style="display: none;">
+        <h2>Address Information</h2>
+        
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input type="text" id="address" class="input-medium" required>
+          <div class="error-text" id="address-error">Address is required</div>
+        </div>
+        
+        <div class="form-group">
+          <label for="city">City</label>
+          <input type="text" id="city" class="input-medium" required>
+          <div class="error-text" id="city-error">City is required</div>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-col">
+            <div class="form-group">
+              <label for="state">State</label>
+              <input type="text" id="state" required>
+              <div class="error-text" id="state-error">State is required</div>
+            </div>
+          </div>
+          <div class="form-col">
+            <div class="form-group">
+              <label for="zip">Zip Code</label>
+              <input type="text" id="zip" required>
+              <div class="error-text" id="zip-error">Zip code is required</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-row">
+          <button type="button" id="prev-2" class="prev-btn">Previous</button>
+          <button type="button" id="next-2" class="next-btn">Next</button>
+        </div>
+      </div>
+      
+      <!-- Subscription Information -->
+      <div class="form-section" id="section-3" style="display: none;">
+        <h2>Subscription Details</h2>
+        
+        <div class="form-group">
+          <label for="magazine">Magazine</label>
+          <select id="magazine" required>
+            <option value="">Select a magazine</option>
+            <option value="Newsweek">Newsweek</option>
+            <option value="Time">Time</option>
+            <option value="National Geographic">National Geographic</option>
+            <option value="The Economist">The Economist</option>
+            <option value="Wired">Wired</option>
+          </select>
+          <div class="error-text" id="magazine-error">Please select a magazine</div>
+        </div>
+        
+        <div class="form-group">
+          <label>Subscription Length</label>
+          <div class="radio-group">
+            <label class="radio-option">
+              <input type="radio" name="subscription" value="1 year" checked> 1 year
+            </label>
+            <label class="radio-option">
+              <input type="radio" name="subscription" value="2 years"> 2 years
+            </label>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="comments">Additional Comments</label>
+          <textarea id="comments"></textarea>
+        </div>
+        
+        <div class="form-row">
+          <button type="button" id="prev-3" class="prev-btn">Previous</button>
+          <button type="submit" id="submit-btn">Submit Order</button>
+        </div>
+      </div>
+    </form>
+    
+    <div class="success-message" id="success-message">
+      <h2>Thank you for your subscription!</h2>
+      <p>Your order has been received and will be processed shortly.</p>
+      <div id="order-summary"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

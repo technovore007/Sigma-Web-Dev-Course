@@ -47,13 +47,13 @@ Welcome to my GitHub repository for the **Sigma Web Development Course** by [Cod
 
 I'll jot down key takeaways, tips, and tricks from each module right here! 📝
 
-- **HTML**: 
+- **HTML**:
   - Example note: Learned how to structure a basic web page using `<div>` and `<p>`. 🧩
 
-- **CSS**: 
+- **CSS**:
   - Example note: Discovered the wonders of `flexbox` and `grid`! 🎨
 
-- **JavaScript**: 
+- **JavaScript**:
   - Example note: The `console.log()` function is my new best friend. 📜
 
 ---
@@ -61,6 +61,7 @@ I'll jot down key takeaways, tips, and tricks from each module right here! 📝
 ## 📸 Highlights and Projects
 
 Stay tuned as I work on exciting projects like:
+
 - Building responsive websites
 - Creating a dynamic **To-Do List** app 📝
 - Creating a spotify clone
@@ -71,6 +72,7 @@ Stay tuned as I work on exciting projects like:
 ## 💬 Connect
 
 🌟 Feel free to connect or leave feedback!
+
 - **Email**: [cick Here](mandeepsingh19092003@gmail.com)📧
 - **LinkedIn**: [click here](https://www.linkedin.com/in/mandeepsingh19092003/) 🔗
 - **𝕏(Formerly Twitter)**: [@MandeepSingh57](https://x.com/MandeepSingh57) 🐦
